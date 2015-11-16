@@ -1,0 +1,39 @@
+<meta>
+    <info author = "PewX" version = "1.0" name = "" type = "script" />
+    <min_mta_version client="1.5.1" server="1.5.0" />
+    <oop>true</oop>
+
+    <!--Shared-->
+        <!--Utility-->
+            <script src = "shared/utility/classlib.lua" type = "shared" cache = "false" />
+            <script src = "shared/utility/utilities.lua" type = "shared" cache = "false" />
+        <!--Classes-->
+            <script src = "shared/classes/CRPC.lua" type = "shared" cache = "false" />
+            <script src = "shared/classes/CEvent.lua" type = "shared" cache = "false" />
+            <script src = "shared/classes/CSingleton.lua" type = "shared" cache = "false" />
+
+    <!--Server-->
+        <!--Corre-->
+            <script src = "server/system/CCore.lua" type = "server" />
+
+        <!--Classes-->
+
+    <!--Client-->
+        <!--Core-->
+            <script src = "client/system/CCore.lua" type = "client" cache = "false"/>
+
+        <!--Classes-->
+            <script src = "client/classes/CAnimations/CAnimations.lua" type = "client" cache = "false" />
+            <script src = "client/classes/CSideSwipe/CSideSwipe.lua" type = "client" cache = "false" />
+
+    <!--Files-->
+        <file src = "res/img/titlescreen.png" />
+        <file src = "res/img/filled_circle.png" />
+        <file src = "res/img/drop.png" />
+        <file src = "res/img/play.png" />
+        <file src = "res/img/direction.png" />
+
+        <file src = "res/sound/blop.mp3" />
+
+        <file src = "res/font/JosefinSans-Regular.ttf" />
+</meta>
